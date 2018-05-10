@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 10, Time elapsed: 59.719 sec <<< FAILURE! - in TestSuite
+beforeMethod(TestNGDemo.MouseHoverTest)  Time elapsed: 15.656 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at TestNGDemo.MouseHoverTest.beforeMethod(MouseHoverTest.java:20)
+
+beforeMethod(TestNGDemo.AddProduct)  Time elapsed: 5.754 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at TestNGDemo.AddProduct.beforeMethod(AddProduct.java:77)
+
+beforeClass(TestNGDemo.LoginTest)  Time elapsed: 4.782 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at TestNGDemo.LoginTest.beforeClass(LoginTest.java:19)
+
