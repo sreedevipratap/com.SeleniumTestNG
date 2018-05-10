@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [SuiteSelenium]">
+  <test name="TestSelenium(failed)">
+    <classes>
+      <class name="TestNGDemo.MouseHoverTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="accessories"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestNGDemo.MouseHoverTest -->
+      <class name="TestNGDemo.LoginTest">
+        <methods>
+          <include name="Login1"/>
+          <include name="afterClass"/>
+          <include name="Login2"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNGDemo.LoginTest -->
+      <class name="TestNGDemo.AddProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="removeiPhone"/>
+          <include name="addiPhone"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestNGDemo.AddProduct -->
+    </classes>
+  </test> <!-- TestSelenium(failed) -->
+</suite> <!-- Failed suite [SuiteSelenium] -->
